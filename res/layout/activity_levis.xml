@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hendra.wtcshops.LevisActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LEVI&apos;S"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="167dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/levis1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang Levis \n\n
+	Shops Levi's merupakan shops yang menjual Merek  Levi’s, yang mana  melambangkan  gaya  Amerika  klasik  dan  tampilan  yang  gaya.  Sejak  ditemukan  oleh
+Levi   Strauss  dan  CO  pada  tahun  1873,  Levi’s  Jeans  telah  menjadi  produk  yang  paling  dikenal  dan dibuat  tiruannya (imitasi) di dunia  –  melambangkan  imajinasi  dan  kesetiaan  dari  para  penggunanya
+dari  generasi  ke  generasi.\n 
+	Kini, merek Levi’s melanjutkan  evolusinya  melalui  semangat  pemrakarsa
+dan  inovatif  yang  tidak  tertandingi  di  industri  pakaian  jadi.  Beragam  model  jeans  dan  aksesoris
+tersedia  di  lebih  dari  110  negara,  yang  mengajak  setiap  individu  di  seluruh  dunia  untuk
+mengekspresikan  personal  style. \n\n
+Lokasi WTC Batang Hari Lantai Dasar
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

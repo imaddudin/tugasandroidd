@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hendra.wtcshops.EigerActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EIGER"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/eger1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang Eiger \n\n
+	PT. Eigerindo Multi Produk Industri atau dikenal sebagai Eiger adalah perusahaan yang paling terkenal di Indonesia khusus di bidang manufaktur dan ritel peralatan petualangan. Perusahaan ini didirikan pada tahun 1993 oleh Mr Ronny Lukito di Bandung.\n
+	Nama perusahaan, Eiger, terinspirasi oleh gunung Eiger, sebuah gunung terkenal di Alpen Bernese, Swiss, naik ke ketinggian 3.970 meter di atas permukaan laut. Dimulai dengan fasilitas yang sangat terbatas, Eiger meluncurkan untuk memproduksi tas dengan hanya dua mesin sederhana di Bandung Jalan Cihampelas No 22.\n
+	Dan di tempat yang sama kami membuka sebuah toko kecil untuk menjual tas. Perusahaan Eiger memproduksi tas dan peralatan petualangan. Produk Eiger datang dalam tiga merek utama, Eiger dengan posisi gaya hidup petualangan, Bodypack dengan posisi e-gaya hidup, dan Nordwand dengan posisi hidup outdoor. Merek Eiger banyak diakui sebagai merek lokal terkemuka di Indonesia. Pada tahun 2009 Eiger terdaftar sebagai salah satu Top 250 Brands Asli Indonesia oleh majalah bisnis Swa dibedakan. Hal ini menunjukkan kerja keras Eiger, tekad, dan hari demi hari komitmen pada keunggulan kualitas dan reputasi yang luar biasa.\n\n
+	Lokasi Di WTC Batang Hari Lantai Dasar
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
